@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #000;
+  color: white;
+  user-select: none;
+}
+
+canvas {
+  touch-action: none;
+}
+
+.hud-text {
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 0 0 5px #0ff;
+}
